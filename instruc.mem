@@ -1,0 +1,4 @@
+0100000_00101_00010_000_00010_0110011 // sub rs2(des),rs2(source 1),rs5(source 2)
+0000000_00010_00001_000_00001_0110011 //  add rs1(des),rs1(source 1),rs2(source 2)
+1111111_00011_00010_001_11111_1100011 //  bneq rs2,rs3 (rs3 having zero. Target address is zero. Offset is -2)
+0000000_00001_00100_010_00000_0100011 //  sw rs1,0(rs4) stores rs1 in add stored in rs4+0
